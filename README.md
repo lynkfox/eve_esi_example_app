@@ -21,4 +21,21 @@ the `token.json file should NEVER be shared or committed to a git history. It is
 If being run for the first time it will open a browser window (or provide a link) that will start the Oauth process. Logging in with your eve toon will grant this app - assuming you have set up an Eve App properly - the wallet scope. When complete or if token.json already exists, it will validate then call the [Get Characters wallet balance](https://developers.eveonline.com/api-explorer#/operations/GetCharactersCharacterIdWallet) end point for your character (retrieving your name from the validation token, and then your ID from the [Bulk names to id](https://developers.eveonline.com/api-explorer#/operations/PostUniverseIds) endpoint) and display your wallet balance.
 
 
-# 
+# Useful Links
+
+* SDE - [https://developers.eveonline.com/resource]
+ * Fuzzworks conversion of SDE to database formats - [https://www.fuzzwork.co.uk/dump/]
+
+* ESI Documentation - [https://developers.eveonline.com/api-explorer]
+ * ESI Guides and example code - [https://developers.eveonline.com/docs/guides/glossary/]
+
+* Setting up a developer app - [https://developers.eveonline.com/applications]
+
+* EsiPy fork that is updated to use OpenAI - [https://github.com/TargetedEntropy/EsiPy]
+
+* Zkill API - [https://github.com/zKillboard/zKillboard/wiki]
+
+* Eve Ref API - [https://docs.everef.net/api/]
+
+* Eve MS Office Excel Add On - [https://www.eveonline.com/eve-academy/excel-add-in]
+ * Google Sheets add on - [https://workspace.google.com/marketplace/app/gesi/747777332185]

@@ -1,0 +1,7 @@
+{
+  "access_token": "super secret value",
+  "expires_in": 1199,
+  "token_type": "Bearer",
+  "refresh_token": "less secret value",
+  "expires_at": 1762309303.1950393
+}
