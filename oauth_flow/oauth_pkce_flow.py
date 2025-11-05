@@ -144,7 +144,7 @@ def is_expired(tokens: dict) -> bool:
 
 # ============ OAuth2 flows ============
 def start_login():
-    if CLIENT_ID.startswith("<PUT_"):
+    if CLIENT_ID.startswith("<PUT "):
         raise SystemExit("Set CLIENT_ID and register your REDIRECT_URI in the EVE developer portal.")
 
     verifier, challenge = generate_code_challenge()
